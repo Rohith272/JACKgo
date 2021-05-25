@@ -10,12 +10,12 @@ BFH/recQoKMbjjJdZpTWx/2021
 ## Link to walkthrough
 https://www.loom.com/share/3cf63a29efa44b769f85e7e43d7d8f70
 ## How it works?
-1.
-2.
+JACKgo works with a created Tensorflow Keras model which is run by a Python script to classify Mango and Jackfruit by image classification. This is a base Python program, so the input image file is given into the program by entering the image url live into the program. The output is given out in CLI format.
 ## Libraries used
 1. Tensorflow Keras
 2. HDF5
 3. Python
 ## How to configure
-
+The sample images and the model file is uploaded into Google Colab with the Python code. Please ensure that the name of the model file is same as in the Pyhon code.
 ## How to run
+To run the program the name of sample image is edited in the program and the code is executed. The resultant is given out in the output box corresponding to the sample image.
