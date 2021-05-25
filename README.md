@@ -8,7 +8,7 @@ A classifier for mango and jackfruit.This model classifies between mango and jac
 ## Team Id
 BFH/recQoKMbjjJdZpTWx/2021
 ## Link to walkthrough
-
+https://www.loom.com/share/3cf63a29efa44b769f85e7e43d7d8f70
 ## How it works?
 1.
 2.
