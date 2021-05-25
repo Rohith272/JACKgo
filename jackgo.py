@@ -13,12 +13,11 @@ import numpy as np
 
 np.set_printoptions(suppress=True)
 
-# Load the model
+
 trained_model = tensorflow.keras.models.load_model('JACKgo_model.h5')
 
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
-# Path to image
 test_image = Image.open('mango.jpg')
 
 size = (224, 224)
@@ -32,7 +31,7 @@ normalized_test_image_array = (test_image_array.astype(np.float32) / 127.0) - 1
 
 data[0] = normalized_test_image_array
 
-# Print the Prediction
+
 result = trained_model.predict(data)
 if result[0][0] > 0.8:
   print("The fruit is identified as Jackfruit")
