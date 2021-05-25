@@ -13,9 +13,9 @@ BFH/recQoKMbjjJdZpTWx/2021
 1.
 2.
 ## Libraries used
-Tensorflow Keras
-HDF5
-Python
+1. Tensorflow Keras
+2. HDF5
+3. Python
 ## How to configure
 
 ## How to run
